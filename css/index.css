@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
 	margin-bottom: 15px;
-	font-size: 24px;
+	font-size: 16px;
 }
 
 /* Your code starts here! */
@@ -103,7 +103,7 @@ img {
 }
 .navBar li {
 	display: inline;
-	font-size: 24px;
+	font-size: 16px;
 }
 .nav80 {
 	display: inline-block;
@@ -139,11 +139,6 @@ img {
 	margin-top: 75px;
 	margin-right: 10%;
 	margin-left: 10%;
-	border-radius: 75px;
-	border: 25px solid #fafafa;
-	box-shadow: 10px 10px 10px 0 #111e368f,
-				-10px -10px 10px 0 #111e368f;
-
 }
 /*Content holder */
 .content {
@@ -151,8 +146,8 @@ img {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: flex-end;
-	font-size: 22px;
+	justify-content: flex-start;
+	font-size: 16px;
 }
 /* divider line */
 .lineBottom {
@@ -177,7 +172,7 @@ img {
 	font-family: 'Bangers', cursive;
 	letter-spacing: 1px;
 	margin-bottom: 15px;
-	font-size: 120px;
+	font-size: 90px;
 	text-align: center;
 	transform: rotate(-5deg);
 
@@ -196,7 +191,7 @@ button {
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 24px;
+	font-size: 18px;
 }
 button:hover {
 	color: white;
@@ -244,43 +239,39 @@ button:hover {
 	
 }
 .contact p {
-	font-size: 18px;
+	font-size: 14px;
 	min-width: 200px;
 }
 /*footer css */
 .footer {
 	display: block;
 	text-align: center;
-	font-size: 18px;
+	font-size: 14px;
 	margin-top: 10px;
 }
-/* services header image */
-.services-header-img {
-	border-radius: 50px 50px 0 0;
-}
+
 
 /* css media queries */
 @media (max-width: 800px) {
-	.footer {
-		
-	}
-	h1, h2, h3, h4, h5 {
-		font-size: 22px;
-	}
 	.navBar80 {
 		margin: 1%;
 	}
 	.navBar li {
 		font-size: 16px;
 	}
-	.content50 header{
-		font-size: 95px;
+    .content50 .splashImg {
+	    display: none;
 	}
 	button {
 		font-size: 16px;
 	}
 	.content {
-		font-size: 16px;
+        font-size: 16px;
+    }
+    .content50 {
+		width: 80%;
+		margin-left: 10%;
+
 	}
 	.contact p {
 		font-size: 14px;
@@ -297,9 +288,7 @@ button:hover {
 		border-radius: 0;
 		box-shadow: none;
 	}
-	.services-header-img {
-		border-radius: 0 0 0 0;
-	}
+
 
 }
 /*Media query for phone */
@@ -343,8 +332,7 @@ button:hover {
 
 	}
 	.content50 .splashImg {
-		width: 80%;
-		margin-left: 10%;
+		display: none;
 	}
 	.content100 {
 		width: 95%;
