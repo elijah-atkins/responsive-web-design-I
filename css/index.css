@@ -260,7 +260,7 @@ button:hover {
 }
 
 /* css media queries */
-@media (max-width: 1140px) {
+@media (max-width: 800px) {
 	.footer {
 		
 	}
@@ -303,7 +303,7 @@ button:hover {
 
 }
 /*Media query for phone */
-@media (max-width: 650px) {
+@media (max-width: 500px) {
 	.body {
 		background-color: #ffffff;
 	}
