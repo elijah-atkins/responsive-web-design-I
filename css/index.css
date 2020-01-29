@@ -100,7 +100,7 @@ img {
 	list-style-type: none; 
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: stretch;
+	justify-content: space-around;
 	margin: 0;
 	padding: 0;
 }
@@ -131,7 +131,7 @@ img {
 }
 .logo {
 	padding: 2px;
-    margin-top: 10px;
+    margin-top: 15px;
     width: 100%;
 	transform: rotate(3deg);
 
@@ -253,11 +253,24 @@ button:hover {
 
 /* css media queries */
 @media (max-width: 800px) {
-	.navBar80 {
-		margin: 1%;
+    .navBar {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .nav20 {
+        margin-top: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .nav80 {
+        width: 100%;
+        background-color: white;
+        display: block;
 	}
 	.navBar li {
-		font-size: 16px;
+        font-size: 15px;
+        margin-right: 0;
 	}
     .content50 .splashImg {
 	    display: none;
@@ -282,10 +295,9 @@ button:hover {
 		font-size: 14px;
 	}
 	.main {
-		margin-top: 60px;
+		margin-top: 120px;
 		margin-left: 0;
 		margin-right: 0;
-		border: 0;
 		border-radius: 0;
 	}
 
@@ -296,21 +308,41 @@ button:hover {
 	.body {
 		background-color: #ffffff;
 	}
-	.nav80{
-		width: 60%;
-		margin: 1%;
-	}
-	.nav20 {
-		width: 35%;
-	}
+    .navBar {
+        flex-direction: column-reverse;
+        width: 100%;
+        position: relative;
+
+    }
+    .nav20 {
+        margin-top: 5px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .nav80 {
+        width: 100%;
+        padding-top: 100px;
+
+    }
+    .navBar ul {
+        margin-top: 200px;
+        flex-direction: column;
+    }
 	.navBar li {
-		font-size: 16px;
+        font-size: 15px;
+        margin-right: 0;
+
 	}
 	.logo {
-		margin-top: 40px;
+        position: fixed;
+        width: 40%;
+        top: 0;
+        left: 30%;
+
 	}
 	.main {
-		margin-top: 120px;
+		margin-top: 300px;
 		margin-left: 0;
 		margin-right: 0;
 		margin-bottom: 0;
