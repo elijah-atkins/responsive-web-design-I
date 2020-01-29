@@ -310,39 +310,32 @@ button:hover {
 	}
     .navBar {
         flex-direction: column-reverse;
+        margin-top: 180px;
         width: 100%;
         position: relative;
-
     }
     .nav20 {
         margin-top: 5px;
         width: 100%;
-        display: flex;
-        justify-content: center;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #999;
     }
     .nav80 {
         width: 100%;
-        padding-top: 100px;
-
     }
     .navBar ul {
-        margin-top: 200px;
         flex-direction: column;
+        align-items: center;
+        justify-content: stretch;
     }
 	.navBar li {
-        font-size: 15px;
-        margin-right: 0;
-
+        font-size: 16px;
+        width: 100%;
+        border-bottom: 1px solid #999;
 	}
-	.logo {
-        position: fixed;
-        width: 40%;
-        top: 0;
-        left: 30%;
 
-	}
 	.main {
-		margin-top: 300px;
+		margin-top: 187px;
 		margin-left: 0;
 		margin-right: 0;
 		margin-bottom: 0;
@@ -359,8 +352,8 @@ button:hover {
 	  font-size: 16px;
 	}
 	.content50 {
-		width: 80%;
-		margin-left: 10%;
+		width: 95%;
+		margin: 2.5%;
 
 	}
 	.content50 .splashImg {
@@ -368,11 +361,12 @@ button:hover {
     }
 
 	.content100 {
-		width: 95%;
+        width: 95%;
+        margin: 2.5%;
 	}
 	.content33 {
-		width: 80%;
-		margin: 5% 10% 0% 10%;
+		width: 90%;
+        margin: 5%;
 	}
 	.services {
 		width: 90%;
