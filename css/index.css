@@ -349,7 +349,7 @@ button:hover {
     .content {
 	  flex-direction: column;
       padding-bottom: 5%;
-	  font-size: 16px;
+	  font-size: 16px; 
 	}
 	.content50 {
 		width: 95%;
