@@ -348,18 +348,17 @@ button:hover {
 	}
     .content {
 	  flex-direction: column;
-	  padding-bottom: 10%;
+      padding-bottom: 5%;
 	  font-size: 16px;
 	}
 	.content50 {
 		width: 95%;
 		margin: 2.5%;
-
+        padding-top: 10%;
 	}
 	.content50 .splashImg {
 		display: none;
     }
-
 	.content100 {
         width: 95%;
         margin: 2.5%;
