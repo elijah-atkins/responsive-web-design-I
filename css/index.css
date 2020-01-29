@@ -203,14 +203,10 @@ button:hover {
 	display: inline-block;
 	margin: auto;
 	border-radius:  50%;
-	
 	animation-name: flutter;
 	animation-delay: 1s;
 	animation-duration: 2s;
 	animation-timing-function: linear;
-	border: 12px solid #ffffff;
-	box-shadow: 5px 5px 5px 0 #536380,
-				-5px -5px 5px 0 #ececec;
 
 }
 /* Content divider for 1/3 chunk */
@@ -261,7 +257,10 @@ button:hover {
 	}
     .content50 .splashImg {
 	    display: none;
-	}
+    }
+    .content .splash-text {
+        width: 100%;
+    }
 	button {
 		font-size: 16px;
 	}
@@ -269,9 +268,7 @@ button:hover {
         font-size: 16px;
     }
     .content50 {
-		width: 80%;
-		margin-left: 10%;
-
+		width: 45%;
 	}
 	.contact p {
 		font-size: 14px;
@@ -286,7 +283,6 @@ button:hover {
 		margin-right: 0;
 		border: 0;
 		border-radius: 0;
-		box-shadow: none;
 	}
 
 
@@ -333,7 +329,8 @@ button:hover {
 	}
 	.content50 .splashImg {
 		display: none;
-	}
+    }
+
 	.content100 {
 		width: 95%;
 	}
@@ -346,10 +343,10 @@ button:hover {
 	}
 	.content50 header{
 		font-size: 80px;
-	}
-  	.services-header-img {
-	border-radius: 0 0 0 0;
-	}
+    }
+    .content .splash-text {
+        width: 80%;
+    }
 	.footer {
 		font-size: 12px;
 		margin-top: 0px;
